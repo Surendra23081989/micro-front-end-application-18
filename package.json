@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
-    "lint": "ng lint",
+    "lint": "ng lint common",
     "pretty-quick": "pretty-quick --staged",
     "prepare": "husky install"
   },
